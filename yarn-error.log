@@ -1,0 +1,63 @@
+Arguments: 
+  /home/arpit/.nvm/versions/node/v8.12.0/bin/node /home/arpit/.nvm/versions/node/v8.12.0/bin/yarn global bin
+
+PATH: 
+  /home/arpit/.nvm/versions/node/v8.12.0/bin:/home/arpit/.rvm/gems/ruby-2.5.1/bin:/home/arpit/.rvm/gems/ruby-2.5.1@global/bin:/home/arpit/.rvm/rubies/ruby-2.5.1/bin:/home/arpit/bin:/home/arpit/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/home/arpit/.rvm/bin:/home/arpit/.rvm/bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  8.12.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/arpit/apps/HlthCare/JSCryptor/package.json: Unexpected token } in JSON at position 216
+      at JSON.parse (<anonymous>)
+      at /home/arpit/.nvm/versions/node/v8.12.0/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/home/arpit/.nvm/versions/node/v8.12.0/lib/node_modules/yarn/lib/cli.js:304:30)
+      at /home/arpit/.nvm/versions/node/v8.12.0/lib/node_modules/yarn/lib/cli.js:315:13
+      at <anonymous>
+
+npm manifest: 
+  {
+    "name": "jscryptor",
+    "version": "0.0.12",
+    "description": "Javascript implementation of RNCryptor",
+    "main": "index.js",
+    "scripts": {
+      "test": "mocha"
+    },
+    "dependencies": {
+      "cryptian": "0.0.3",
+    },
+    "devDependencies": {
+      "chai": "^3.5.0",
+      "mocha": "^2.5.3"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/chesstrian/JSCryptor.git"
+    },
+    "keywords": [
+      "rncryptor"
+    ],
+    "author": {
+      "name": "Christian Gutierrez",
+      "email": "chesstrian@gmail.com"
+    },
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/chesstrian/JSCryptor/issues"
+    },
+    "homepage": "https://github.com/chesstrian/JSCryptor"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
